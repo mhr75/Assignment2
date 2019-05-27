@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random</title>
+    <link rel="stylesheet" type="text/css" href="qwe.css">
+
+</head>
+<body>
+<div class="box">
+    <input type="number" min="0" name="lb" id="in_lb">
+    <select id="state" >
+        <option value="kg_to_lb">kg to lb</option>
+        <option value="lb_to_kg">lb to kg</option>
+    </select>
+    <input type="button" value="convert" id="submit" onclick="change()"> <output id="demo"></output>
+</div>
+<main class="app" id="app">
+
+    <section id="quotes">
+        <div class="quote-text" id="p1"></div>
+    </section>
+    <section class="controls">
+        <button type="button" class="red button" id="red" onclick="colorChange()">Red Quote</button>
+        <button type="button" class="blue button" id="blue" onclick="colorChange1()">Blue Quote</button>
+        <button type="button" class="orange button" id="orange" onclick="colorChange2()">Orange Quote</button>
+        <button type="button" class="pink button" id="pink" onclick="colorChange3()">Pink Quote</button>
+    </section>
+    <script src="script.js"></script>
+</main>
+</body>
+</html>
